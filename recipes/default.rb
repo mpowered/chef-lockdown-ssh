@@ -11,3 +11,5 @@ template "sshd_config" do
   group "root"
   mode "0644"
 end
+
+notifies :restart, "service[ssh]"
