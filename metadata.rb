@@ -1,6 +1,6 @@
-maintainer       "YOUR_COMPANY_NAME"
-maintainer_email "YOUR_EMAIL"
-license          "All rights reserved"
-description      "Installs/Configures lockdown-ssh"
+maintainer       "Luke Randall"
+maintainer_email "luke.randall@gmail.com"
+license          "MIT"
+description      "Locks down sshd"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.0.1"
+version          "0.0.2"
