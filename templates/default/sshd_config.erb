@@ -47,7 +47,7 @@ PermitEmptyPasswords no
 ChallengeResponseAuthentication no
 
 # Change to no to disable tunnelled clear text passwords
-#PasswordAuthentication <%= node[:sshd][:password_auth] ? 'yes' : 'no' %>
+PasswordAuthentication <%= node[:sshd][:password_auth] ? 'yes' : 'no' %>
 
 # Kerberos options
 #KerberosAuthentication no
