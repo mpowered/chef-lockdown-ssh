@@ -4,6 +4,8 @@
 #
 # Copyright 2012, Luke Randall
 
+include_recipe "openssh::default"
+
 template "sshd_config" do
   path "#{node[:sshd][:config_dir]}/sshd_config"
   source "sshd_config.erb"
