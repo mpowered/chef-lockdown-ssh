@@ -6,8 +6,8 @@ Locks down sshd, disabling root and password logins
 Requirements
 ============
 
-Know what you're doing! If you run this without a user that can sudo and is
-configured to auth using a public key you'll be locked out of your machine.
+Know what you're doing! If you run this without a user who can sudo, and is
+configured to auth using a public key, you'll be locked out of your machine.
 
 Attributes
 ==========
